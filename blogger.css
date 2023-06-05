@@ -1,0 +1,121 @@
+/*
+Unless otherwise indicated, all code below was written by Eric Costello,
+and you are free to use, modify and distribute it. Please leave this 
+comment block intact so that people can find the original unmodified
+version at: http://www.glish.com/css/blogger/
+
+Also see:
+http://www.schwa.com
+http://www.glish.com
+*/
+
+body {
+	font-size:12px;
+	background:#ddd;
+	padding:0px;
+	margin:0px;
+	}
+	
+a {
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	outline:none;
+	text-decoration:none;
+	background:white;
+	}
+	
+a:visited {
+	color:black;
+	background:none;
+	text-decoration:underline;
+	}
+	
+a:hover {
+	color:black;
+	background:white;
+	text-decoration:underline;
+	}
+	
+label, input, select { outline:none; }
+
+#centercontent {
+	position: relative;
+	top: 10px;
+	background:#fff;
+	margin-bottom: 4px;
+	margin-left: 5px;
+	margin-right:232px;
+	border:1px solid #000;
+	}
+
+#rightcontent {
+	z-index:1;
+	position: absolute;
+	width: 220px;
+	right:6px;
+	top:5px;
+	background:#fff;
+	border:1px solid #000;
+	}
+
+#banner {
+	position: relative;
+	background:#ffffff;
+	border:1px solid #000000;
+	margin-right:232px;
+	margin-left:5px;
+	top:5px;
+	}
+	
+div.padded,h1,h2,h3,h4,h5,h6 {
+	margin:0px 10px 10px 10px;
+	}
+	
+p {
+	margin:10px 0px 0px 0px;
+	}
+	
+h1 {
+	margin-top:10px;
+	}
+	
+h2 {
+	margin-top:10px;
+	}
+	
+#banner h1  {
+	padding:10px 10px 0px 10px;
+	margin:0px;
+	}
+	
+#banner h4  {
+	padding:0px 10px 0px 10px;
+	margin:0px;
+	}
+
+div.footer {
+	padding-top:0px;
+	margin-top:-10px;
+	margin-right:40px;
+	margin-left:40px;
+	color:#666;
+	}
+
+div.post {
+	margin-right:40px;
+	margin-left:40px;
+	}
+	
+input.textSizer {
+	font-size:10px;
+	font-weight:bold;
+	background:black;
+	color:white;
+	width:40px;
+	}
+
+a img
+{
+       border-width: 0px;
+}
